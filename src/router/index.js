@@ -8,13 +8,13 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: () => import(/* webpackChunkName: "account" */ '../router/views/Home.vue'),
+    component: () => import(/* webpackChunkName: "account" */ '../router/pages/Home.vue'),
     meta: {}
   },
 //   {
 //     path: '/account',
 //     name: 'Account',
-//     component: () => import(/* webpackChunkName: "account" */ '../router/views/Account.vue'),
+//     component: () => import(/* webpackChunkName: "account" */ '../router/pages/Account.vue'),
 //     meta: {
 //       requiresAuth: true
 //     },

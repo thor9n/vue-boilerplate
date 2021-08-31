@@ -1,3 +1,13 @@
+:root {
+    --primary-color: #212121;
+    --secondary-color: #ffffff;
+    --background-color: #F5F6FA;
+    --brand-color-1: #0043af;
+    --accent-color-1: #48fef0;
+    --accent-color-2: #0061ff;
+    --accent-color-3: #fede48;
+}
+
 html {
     font-size: 14px;
     @include md {
@@ -11,6 +21,36 @@ body {
     font-family: $font-stack;
     font-style: normal;
     font-weight: normal;
-    color: $primary-color;
-    background: $background-color;
+    color: var(--primary-color);
+    background: var(--background-color);
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.text-color {
+    &--invert {
+        color: var(--secondary-color);
+    }
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.flex {
+    display: flex;
+}
+.flex-justify{
+    &--center {
+        justify-content: center;
+    }
+}
+.flex-align {
+    &--center {
+        align-items: center;
+    }
+    &--bottom {
+        align-items: bottom;
+    }
 }

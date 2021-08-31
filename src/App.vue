@@ -4,6 +4,7 @@
   </div>
 </template>
 <script>
+import '@/styles/reset.scss'
 import '@/styles/main.scss'
 import EventBus from '@/misc/event-bus'
 

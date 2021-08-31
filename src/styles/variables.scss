@@ -1,9 +1,21 @@
-@import "reset";
-@import "fonts";
-@import "colors";
 @import "mixins";
+
+/*
+@font-face {
+    font-family: 'Boing'; 
+    src: url('~@/assets/fonts/boing-regular.woff2');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Boing'; 
+    src: url('~@/assets/fonts/boing-medium.woff2');
+    font-weight: bold;
+}
+*/
+
+$font-stack: 'Times New Roman', Arial, sans-serif;
 
 
 /* Keen UI Variables */
-$brand-primary-color: $brand-color-1;
-$brand-accent-color: $accent-color-1;
+// $brand-primary-color: $brand-color-1;
+// $brand-accent-color: $accent-color-1;
