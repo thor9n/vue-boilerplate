@@ -11,7 +11,7 @@ export default {
     return {};
   },
   mounted() {
-    console.log("Home.vue", this.$store.state.module)
+
   }
 };
 </script>

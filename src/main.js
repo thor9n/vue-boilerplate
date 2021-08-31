@@ -9,6 +9,12 @@ import store from '@/store'
 import '@/includes/keen-ui'
 
 
+
+// Force SSL
+if(window.location.protocol != "https:" && window.location.hostname.indexOf('localhost')===-1) {
+  location.replace(`https:${location.href.substring(location.protocol.length)}`)  
+}
+
 Vue.config.productionTip = false
 
 new Vue({
