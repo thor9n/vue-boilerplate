@@ -14,7 +14,7 @@ html {
         font-size: 16px;
     }
     @include xl {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 body {
@@ -28,15 +28,18 @@ img {
     max-width: 100%;
     display: block;
 }
-.text-color {
-    &--invert {
-        color: var(--secondary-color);
-    }
-}
 .center {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+.margin {
+    &--reset {
+        margin: 0;
+    }
+    &--reset-bottom {
+        margin-bottom: 0;
+    }
 }
 .flex {
     display: flex;
@@ -54,3 +57,26 @@ img {
         align-items: bottom;
     }
 }
+.text-color {
+    &--invert {
+        color: var(--secondary-color);
+    }
+}
+.text-align {
+    &--left {
+        text-align: left;
+    }
+    &--center {
+        text-align: center;
+    }
+    &--right {
+        text-align: right;
+    }
+}
+.line-height {
+    &--reset {
+        line-height: 0;
+    }
+}
+
+

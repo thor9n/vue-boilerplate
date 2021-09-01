@@ -3,12 +3,15 @@ import App from '@/App.vue'
 import router from '@/router'
 import store from '@/store'
 
+
 /*
- * Includes
+ * Includes and Imports
  */
-import '@/includes/keen-ui'
 
 
+/*
+ * Settings
+ */
 
 // Force SSL
 if(window.location.protocol != "https:" && window.location.hostname.indexOf('localhost')===-1) {
