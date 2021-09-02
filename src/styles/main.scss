@@ -73,6 +73,14 @@ img {
         text-align: right;
     }
 }
+.transition {
+    transition-duration: .25s;
+    transition-timing-function: ease;
+    &--box-shadow {
+        @extend .transition;
+        transition-property: box-shadow;
+    }
+}
 .line-height {
     &--reset {
         line-height: 0;
