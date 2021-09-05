@@ -80,9 +80,16 @@ a {
 .transition {
     transition-duration: .25s;
     transition-timing-function: ease;
+    &--all {
+        @extend .transition;
+        transition-property: all;
+    }
     &--box-shadow {
         @extend .transition;
         transition-property: box-shadow;
+    }
+    &--cubic-bezier {
+        transition-property: cubic-bezier(.2, .5, .3, 1);
     }
 }
 .line-height {
