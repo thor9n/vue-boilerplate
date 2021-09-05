@@ -11,6 +11,7 @@ import '@/components/_globals'
 
 //https://vuikit.js.org/guide/modal
 //https://picturepan2.github.io/spectre/elements/labels.html
+//https://element.eleme.io/#/en-US/component/dialog
 
 /*
  * Settings
