@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view />
-    <button class="ui button">Test</button>
+    <base-button class="ui button">Test</base-button>
   </div>
 </template>
 <script>

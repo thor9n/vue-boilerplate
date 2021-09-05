@@ -3,11 +3,14 @@ import App from '@/App.vue'
 import router from '@/router'
 import store from '@/store'
 
-
 /*
  * Includes and Imports
  */
 
+import '@/components/_globals'
+
+//https://vuikit.js.org/guide/modal
+//https://picturepan2.github.io/spectre/elements/labels.html
 
 /*
  * Settings
