@@ -8,6 +8,7 @@ import store from '@/store'
  */
 
 import '@/components/_globals'
+import '@/includes/ui-library'
 
 //https://vuikit.js.org/guide/modal
 //https://picturepan2.github.io/spectre/elements/labels.html
